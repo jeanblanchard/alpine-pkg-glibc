@@ -1,8 +1,8 @@
 # Maintainer: Glider Labs <team@gliderlabs.com>
 
 pkgname="glibc"
-pkgver="2.21"
-pkgrel="2"
+pkgver="2.22"
+pkgrel="3"
 pkgdesc="GNU C Library compatibility layer"
 arch="x86_64"
 url="https://github.com/gliderlabs/alpine-glibc"
@@ -38,5 +38,5 @@ bin() {
   cp -La "$srcdir"/ld.so.conf "$subpkgdir"/etc/
 }
 
-md5sums="cd2bef93120db7401bd7a4451e97dab4  glibc-2.21-2-x86_64.pkg.tar.xz
+md5sums="2f403116022721e2b61272e579b333b7  glibc-2.22-3-x86_64.pkg.tar.xz
 fda27293b95f89c7a61a0d379d1c3bde  ld.so.conf"
